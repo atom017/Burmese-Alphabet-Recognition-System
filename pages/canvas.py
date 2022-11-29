@@ -9,6 +9,7 @@ import os
 from os import path
 
 
+
 st.write('<style>div.block-container{padding-top:2rem;}</style>', unsafe_allow_html=True)
 model = tf.keras.models.load_model('model5.h5')
 
@@ -28,7 +29,7 @@ st.title('Canvas')
 
 stroke_width = st.sidebar.slider("Stroke width: ", 5, 15, 5)
 stroke_color = st.sidebar.color_picker("Stroke color hex: ")
-bg_color = st.sidebar.color_picker("Background color hex: ", "#eee")
+
 # Create a canvas component
 canvas_result = st_canvas(
     fill_color= "#eee", #rgba(255, 165, 0,0.3)",  # Fixed fill color with some opacity
@@ -38,7 +39,7 @@ canvas_result = st_canvas(
 	width=200,
     drawing_mode="freedraw",
 	stroke_color=stroke_color,
-	background_color=bg_color,
+	background_color="fff",
     key="canvas",
 )
 
@@ -51,8 +52,9 @@ def play_audio(index):
 		audio_file = audio_path + '00' + str(index) + '.mp3'
 
 
-	print(audio_path)
-	playsound(audio_file)
+	
+	#playsound(audio_file)
+	st.audio(audio_file,auto_play=True)
 
 
 def crop_image(img):
