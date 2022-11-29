@@ -1,0 +1,9 @@
+h5py==3.7.0
+opencv-python==4.4.0.44
+pandas==1.5.2
+playsound==1.2.2
+streamlit==1.14.1
+streamlit-drawable-canvas==0.9.2
+opencv-python==4.4.0.44
+toml==0.10.2
+tensorflow==2.10.0
