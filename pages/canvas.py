@@ -39,7 +39,7 @@ canvas_result = st_canvas(
 	width=200,
     drawing_mode="freedraw",
 	stroke_color=stroke_color,
-	background_color="fff",
+	background_color="#fff",
     key="canvas",
 )
 
