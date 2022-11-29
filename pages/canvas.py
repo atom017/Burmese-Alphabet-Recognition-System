@@ -53,8 +53,8 @@ def play_audio(index):
 
 
 	
-	#playsound(audio_file)
-	st.audio(audio_file,auto_play=True)
+	playsound(audio_file)
+	
 
 
 def crop_image(img):
