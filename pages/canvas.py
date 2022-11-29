@@ -2,11 +2,12 @@ import streamlit as st
 from io import StringIO
 import cv2
 import numpy as np
-import pickle
+
 import tensorflow as tf
 from playsound import playsound
 import os
 from os import path
+
 
 st.write('<style>div.block-container{padding-top:2rem;}</style>', unsafe_allow_html=True)
 model = tf.keras.models.load_model('model5.h5')
