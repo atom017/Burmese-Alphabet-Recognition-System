@@ -11,3 +11,11 @@ This project is the final project of Simbolo 'Computer Vision(Batch-4)' class.
 
 
 ![screenshot](https://github.com/atom017/Burmese-Alphabet-Recognition-System/blob/main/UI%20image.png)
+
+## Contributors
+- [Khaing Hsu Thwe](https://github.com/atom017)
+- [Htwe Eaint Phyu](https://github.com/htweeaintphyu99)
+- Nay Lin Tun
+- Myint Myint Soe
+- Pann Phyu Sin
+- Min Ye Myat
