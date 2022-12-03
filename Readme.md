@@ -16,6 +16,6 @@ This project is the final project of Simbolo 'Computer Vision(Batch-4)' class.
 - [Khaing Hsu Thwe](https://github.com/atom017)
 - [Htwe Eaint Phyu](https://github.com/htweeaintphyu99)
 - Nay Lin Tun
-- Myint Myint Soe
+- [Myint Myint Soe](https://github.com/MMS04)
 - Pann Phyu Sin
 - Min Ye Myat
