@@ -49,6 +49,16 @@ def play_audio(index):
 
 	playsound(audio_file)
 
+def play_audio_st(index):
+	my_path = os.getcwd()
+	audio_path = my_path+'/audio_mp3/'
+	if index > 9:
+		audio_file = audio_path+'0'+str(index)+'.mp3'
+	else:
+		audio_file = audio_path + '00' + str(index) + '.mp3'
+
+	st.audio(audio_file,format="audio/mp3")
+
 def get_contours(thresh_img):
 	contours, _ = cv2.findContours(thresh_img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 	# contours = contours[0] if len(contours) == 2 else contours[1]
@@ -146,7 +156,7 @@ if st.button('Submit'):
 		text=text+character_dict[result]
 	st.text_input('output', value=text)
 	for i in range(len(result_arr)):
-		play_audio(result_arr[i]+1)
+		play_audio_st(result_arr[i]+1)
 
 
 
