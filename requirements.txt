@@ -8,4 +8,4 @@ toml==0.10.2
 tensorflow==2.10.0
 pandas==1.5.2
 vext
-vext.gi
+
