@@ -2,5 +2,6 @@ h5py
 tensorflow
 streamlit
 streamlit-drawable-canvas
-opencv-python
+#opencv-python
+opencv-python-headless
 playsound==1.2.2
