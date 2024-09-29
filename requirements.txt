@@ -1,10 +1,6 @@
-h5py==3.7.0
-pandas==1.5.2
+h5py
+tensorflow
+streamlit
+streamlit-drawable-canvas
+opencv-python
 playsound==1.2.2
-streamlit==1.14.1
-streamlit-drawable-canvas==0.9.2
-opencv-python-headless
-toml==0.10.2
-tensorflow==2.10.0
-vext
-vext.gi
